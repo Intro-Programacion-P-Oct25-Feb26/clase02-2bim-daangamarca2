@@ -24,6 +24,7 @@ public class Ejemplo02 {
         System.out.println(arreglo1[2]);
         System.out.println(arreglo1[3]);
         System.out.println(arreglo1[4]);
+        // puedo llegar hasta el numero de elementos del arreglo menos 1
         
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
@@ -36,6 +37,10 @@ public class Ejemplo02 {
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
+        System.out.println(arreglo5[1]);
+        System.out.println(arreglo5[2]);
+        System.out.println(arreglo5[3]);
+        System.out.println(arreglo5[4]);
     }
 
 }
