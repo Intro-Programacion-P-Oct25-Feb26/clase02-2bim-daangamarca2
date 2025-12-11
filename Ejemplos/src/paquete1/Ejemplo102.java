@@ -33,7 +33,8 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (!nombre.equals("Luis")) {
-            // expresa que si el
+            // expresa que todas las posiciones del arreglo excepto la de Luis
+            // que es la posicion 0 no se presente
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
